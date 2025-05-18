@@ -1,42 +1,51 @@
 # Web Scraping & Data Structuring: U.S. Fortune Companies
 
 ## Overview  
-This project demonstrates scraping real-world financial data from Wikipedia using Python (BeautifulSoup and Requests). The extracted table of the largest U.S. companies by revenue was structured using pandas into a clean, analysis-ready CSV file.
+This project demonstrates the use of Python to scrape real-world company data from Wikipedia and structure it into a clean, analysis-ready format. The data includes the largest U.S. companies by revenue and was processed using BeautifulSoup and pandas for further analysis or visualization.
 
 ## Tools  
 - Python  
 - BeautifulSoup  
 - Requests  
-- Pandas
+- Pandas  
+- Jupyter Notebook
 
-## Dataset  
-The dataset contains information on the largest U.S. companies, including:  
-- Company name  
-- Revenue (in billions)  
-- Number of employees  
-- Industry sector
+## Source  
+Data was extracted from:  
+[List of largest companies in the United States by revenue](https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue)
 
 ## Objectives  
-- Extract structured data from raw HTML on Wikipedia  
-- Clean and format data for analysis using pandas  
-- Export a ready-to-use CSV dataset for further data work
+- Scrape tabular financial data from a live website  
+- Convert raw HTML into structured tabular form using pandas  
+- Export the cleaned dataset into CSV and Excel formats  
+- Showcase clean, reproducible data collection in a Jupyter Notebook
 
-## Sample Output Preview  
-![Top 5 Companies Preview](images/sample_output_preview.png)  
-*Snapshot showing the top 5 companies extracted using `df.head()`*
+## Dataset Includes  
+- Company Name  
+- Industry  
+- Revenue  
+- Headquarters Location  
+- Number of Employees  
 
-## Jupyter Notebook  
-📁 [View Notebook](web_scraping_us_fortune_companies_analysis.ipynb)
+## Sample Output  
+Below is a sample view showing the top 5 companies from the dataset after scraping and structuring:
 
-## Dataset  
-📁 [Download CSV](companies.csv)
+![Sample Output](https://github.com/Akwardhan/Web-Scraping-US-Fortune-Companies/blob/main/US_Fortune_Companies_Data_Extraction/Screenshot/Top%205%20Companies_Preview.png)
+
+## Notebook  
+📄 [View Jupyter Notebook](https://github.com/Akwardhan/Web-Scraping-US-Fortune-Companies/blob/main/US_Fortune_Companies_Data_Extraction/web_scraping_us_fortune_companies_analysis.ipynb)
+
+## Dataset Download  
+📁 [Download CSV](https://github.com/Akwardhan/Web-Scraping-US-Fortune-Companies/blob/main/US_Fortune_Companies_Data_Extraction/Companies.csv)  
+📁 [Download Formatted Excel File](https://github.com/Akwardhan/Web-Scraping-US-Fortune-Companies/blob/main/US_Fortune_Companies_Data_Extraction/Companies_Formatted.xlsx)
 
 ## Learnings  
-- Improved skills in web scraping using BeautifulSoup and Requests  
-- Enhanced data cleaning and manipulation techniques with pandas  
-- Gained experience converting unstructured web data into structured datasets  
+- Gained hands-on experience with web scraping using BeautifulSoup and Requests  
+- Learned to process raw HTML into structured datasets using pandas  
+- Practiced exporting datasets in CSV and Excel formats  
+- Improved documentation and project structuring using Jupyter Notebooks
 
 ## Author  
-*Anmol Kirtiwardhan*  
+**Anmol Kirtiwardhan**  
 [LinkedIn](https://www.linkedin.com/in/akwardhan/)  
-[Portfolio](https://your-portfolio-link.com)
+[Portfolio](https://your-portfolio.com)
