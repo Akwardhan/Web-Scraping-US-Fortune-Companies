@@ -27,7 +27,7 @@ Data was extracted from:
 - Headquarters Location  
 - Number of Employees  
 
-## Sample Output  
+## Data Snapshot
 Below is a sample view showing the top 5 companies from the dataset after scraping and structuring:
 
 ![Sample Output](https://github.com/Akwardhan/Web-Scraping-US-Fortune-Companies/blob/main/US_Fortune_Companies_Data_Extraction/Screenshot/Top%205%20Companies_Preview.png)
